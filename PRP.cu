@@ -1,6 +1,6 @@
-/*  Programmer: Ahmad Sibai (asibai@usf.edu)
+/*  Programmer: Ahmad Sibai
     Project 3: Parallel Radix Partition (CUDA)
-    To compile: nvcc SDH.c -o SDH in the GAIVI machines
+    To compile: nvcc PRP.c -o PRP
 */
 
 /* Testing      # elements      # partitions  Time seconds    miliseconds  
