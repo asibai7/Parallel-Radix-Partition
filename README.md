@@ -25,13 +25,12 @@ Example:
 ```
 ./PRP 1000000 512
 ```
-## Testing Results  
+## Testing   
 
 | **Test** | **Number of Elements** | **Number of Partitions** | **Time (Seconds)** | **Time (Milliseconds)** |
 |----------|-------------------------|--------------------------|--------------------|--------------------------|
 | 1        | 50,000,000              | 256                      | 0.0181             | 18.1                     |
 | 2        | 1,000,000               | 512                      | 0.0002             | 0.2                      |
 | 3        | 100,000,000             | 1024                     | 0.0786             | 78.6                     |
-
 <br>(inputSize) The number of elements in input array (must be >= 1,000,000.  
 (numPartitions) The number of partitions (must be a power of 2, between 2 and 1024).
