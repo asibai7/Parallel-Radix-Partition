@@ -3,11 +3,6 @@
     To compile: nvcc PRP.c -o PRP
 */
 
-/* Testing      # elements      # partitions  Time seconds    miliseconds  
-   1            50,000,000      256                0.0181     18.1
-   2            1,000,000       512                0.0002     0.2
-   3            100,000,000     1024               0.0786     78.6
-*/
 #include <assert.h>
 #include <cuda_runtime.h> //header for cudaMalloc, cudaFree, cudaMemcpy
 #include <device_launch_parameters.h> //header for blockIdx, blockDim, threadIdx
